@@ -7,7 +7,7 @@ LABEL maintainer="Christian Ward-Garrison"
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        python-software-properties \
-       python-pip \
+       wget git build-essential libssl-dev python libncurses-dev gcc-multilib g++-multilib unzip bc git genext2fs liblz4-tool expect \
        software-properties-common \
        rsyslog \
        systemd \
@@ -27,5 +27,5 @@ RUN pip install --upgrade pip setuptools
 
 # Clearly initctl_faker systemd init within Docker, but I don't know anything more about it than that.
 # Its origin is here: https://github.com/geerlingguy/drupal-vm/pull/456
-COPY initctl_faker .
-RUN chmod +x initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
+# COPY initctl_faker .
+# RUN chmod +x initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
