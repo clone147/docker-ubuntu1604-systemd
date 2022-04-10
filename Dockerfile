@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer="Christian Ward-Garrison"
+LABEL maintainer="Tomasz Wojciechowski"
 
 # Install dependencies.
 # The final line upgrades all installed packages including kernel and kernel headers.
