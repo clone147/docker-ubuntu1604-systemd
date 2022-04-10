@@ -18,7 +18,7 @@ is made or merged to the `master` branch. But if you need to build the image on 
 ## How to Use
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
-  2. Pull this image from Docker Hub: `docker pull cwardgar/docker-ubuntu1604-systemd:latest` (or use the tag you
+  2. Pull this image from Docker Hub: `docker pull clone147/docker-ubuntu1604-systemd:latest` (or use the tag you
   built earlier, e.g. `ubuntu1604-systemd`).
   3. Run a container from the image: `docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro
   clone147/docker-ubuntu1604-systemd:latest /lib/systemd/systemd`.
