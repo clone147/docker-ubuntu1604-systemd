@@ -1,4 +1,4 @@
-# Ubuntu 16.04 LTS (Xenial) SystemD Test Image
+# Ubuntu 16.04 LTS (Xenial) SystemD URVEBoard SDK v0.1
 
 [![Docker Automated build](https://img.shields.io/docker/automated/cwardgar/docker-ubuntu1604-systemd.svg?maxAge=2592000
 )](https://hub.docker.com/r/cwardgar/docker-ubuntu1604-systemd/)
